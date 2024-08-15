@@ -2,28 +2,32 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package herançaatividade;
+package atividade.pkg15.pkg8;
 
 /**
  *
  * @author Aluno
  */
-public class Processador extends marcamodelo {
+public class Processador extends Marcamodelo{
     
-    String frequencia;
+    String frenquencia;
 
-    public Processador(String frequencia, String marca, String modelo) {
+    public Processador(String frenquencia, String marca, String modelo) {
         super(marca, modelo);
-        this.frequencia = frequencia;
+        this.frenquencia = frenquencia;
     }
 
-    public String getFrequencia() {
-        return frequencia;
+    public String getFrenquencia() {
+        return frenquencia;
     }
 
-    public void setFrequencia(String frequencia) {
-        this.frequencia = frequencia;
+    public void setFrenquencia(String frenquencia) {
+        this.frenquencia = frenquencia;
     }
+    
+    
+    
+    
     
     
     
